@@ -59,3 +59,8 @@ PHP Warning:  Module 'soap' already loaded in Unknown on line 0
 [Mon Mar 09 17:52:22.346801 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Mon Mar 09 17:59:29.413012 2020] [core:warn] [pid 1] AH00045: child process 19 still did not exit, sending a SIGTERM
 [Mon Mar 09 17:59:30.420446 2020] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[Tue Mar 10 14:14:52.828917 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Tue Mar 10 14:14:52.829873 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
