@@ -13,7 +13,8 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ${DOCUMENT_ROOT-../lollyai/merlin/httpdocs}:/var/www/html
+      - ${DOCUMENT_ROOT-../lollyai/merlin/httpdocs}:/var/www/merlin
+      - ${DOCUMENT_ROOT-../raw_mvc/raw.mvc/httpdocs}:/var/www/raw
       - ${PHP_INI-./config/php.ini}:/usr/local/etc/php/php.ini
       - ${VHOSTS_DIR-./config/vhosts}:/etc/apache2/sites-enabled
       - ${LOG_DIR-./logs/apache2}:/var/log/apache2
