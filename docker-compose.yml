@@ -14,6 +14,7 @@ services:
       - "443:443"
     volumes:
       - ${DOCUMENT_ROOT-../lollyai/merlin/httpdocs}:/var/www/merlin
+      - ${DOCUMENT_ROOT-../lollyai/dev.lolly.ai/httpdocs}:/var/www/lolly
       - ${DOCUMENT_ROOT-../raw_mvc/raw.mvc/httpdocs}:/var/www/raw
       - ${DOCUMENT_ROOT-../norden/zeno/httpdocs}:/var/www/norden
       - ${PHP_INI-./config/php.ini}:/usr/local/etc/php/php.ini
